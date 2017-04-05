@@ -1,0 +1,20 @@
+Boylston Street,Potholes,bs01,1,Sunny,Light,Anomaly
+Boylston Street,Normal,bs02,1,Snowy,Light,Normal
+Boylston Street,,bs03,0,,,Anomaly
+Boylston Street,Normal,bs04,1,Windy,Moderate,Normal
+Boylston Street,Heavy Snow,bs05,1,Sunny,Light,Anomaly
+Newburry Street,Normal,ns01,1,Heavy Snowy,Moderate,Anomaly
+Newburry Street,Normal,ns02,1,Rainy,Heavy,Normal
+Newburry Street,Normal,ns03,0,,,Anomaly
+Newburry Street,Potholes,ns04,1,Sunny,Heavy,Anomaly
+Newburry Street,Normal,ns05,1,Snowy,Normal,Normal
+Causeway Street,Snow ,cs01,1,Snowy,Normal,Anomaly
+Causeway Street,,cs02,0,,,Anomaly
+Causeway Street,Normal,cs03,1,Sunny,Light,Normal
+Causeway Street,Potholes,cs04,1,Windy,Moderate,Anomaly
+Causeway Street,Normal,cs05,1,Rainy,Light,Normal
+Sydney Street,Normal,ss01,1,Rainy,Heavy,Anomaly
+Sydney Street,Potholes,ss02,1,Sunny,Light,Anomaly
+Sydney Street,Water filled,ss03,1,Rainy,Light,Anomaly
+Sydney Street,Normal,ss04,1,Sunny,Moderate,Normal
+Sydney Street,,ss05,0,,,Anomaly

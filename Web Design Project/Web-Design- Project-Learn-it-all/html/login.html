@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+
+function validate()
+      {
+
+if( document.myForm.name.value == "" )
+         {
+            alert( "Please provide your name!" );
+            document.myForm.name.focus() ;
+            return false;
+         }
+		 
+		 if( document.myForm.password.value == "" )
+         {
+            alert( "Please provide your Email!" );
+            document.myForm.email.focus() ;
+            return false;
+         }
+		 
+		 
+		 
+		   return( true );
+		   }
+		 
+</script> 
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="all" />
+</head>
+<body>
+<div id="page-container">
+<div id = "logo">
+<div id = "logoimage">
+<h1><a href="index.html"><img src="../images/logo&name1.png" alt="logo"></a></h1></div>
+<div id = "loginreg">
+<p>
+<a href = "registration-form.html"> Register </a></p>
+</div>
+</div>
+<div id="nav">
+<nav class="nav">
+    <ul>
+	 <li class="nav-item"><a href="index.html">Home</a></li>
+     <li class="nav-item"><a href="#">Categories</a>
+	 <ul class="sub">
+                <li class="inner-nav-item"><a href="academics.html">Academics</a>
+				
+				
+				</li>
+                <li class="inner-nav-item"><a href="music.html">Music</a>
+				
+				</li>
+                <li class="inner-nav-item"><a href="#">DIY Hacks</a>
+				
+				</li>
+				<li class="inner-nav-item"><a href="#">Interview tips</a>
+				
+				</li>
+				<li class="inner-nav-item"><a href="#">Cooking</a>
+				
+				</li>
+				
+            </ul>
+			</li>
+     <li class="nav-item"><a href="careers.html">Careers</a></li>
+     <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+	 <li class="nav-item"><a href="contact-us-new.html">Contact Us</a></li>
+	</ul> 
+   </nav>
+
+</div>
+
+<div class="container">
+<div id="contactUsdesc"><p><strong>Log in to Learn</strong></p></div>      
+      <div class="form">
+    		<form id="contactform" action="" name="myForm"> 
+    			<p class="contact"><label for="name">Username:</label></p> 
+    			<input id="name" name="name" placeholder="Username"  tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="password">Password</label></p> 
+    			<input id="email" name="email" placeholder="Password"  type="password"> 
+            
+            <input class="button" name="submit" id="submit" tabindex="5" value="Login" onclick="document.location.href='profile-page.html';"> 	 
+   </form> 
+</div>      
+</div>
+
+
+
+<div id ="footer">
+<footer>
+<div id = "altnav">       
+<a href = "#"> Policy </a>	 
+<a href = "#"> Press </a> 
+<a href = "#"> Help </a>	
+<a href = "#"> Subscribe Newsletter </a>
+</div>
+Copyright &copy; 2016 Learn It All	
+<div class="footer-social-icons">
+								<h4 class="_14">Follow us on</h4>
+								<ul class="social-icons">
+									<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div> 
+</footer>
+</div>  
+</div>  
+
+</body>
+</html>
